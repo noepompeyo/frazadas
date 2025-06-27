@@ -1,0 +1,34 @@
+---
+import '../layouts/Layout.astro'
+---
+<section class="w-full max-w-4xl mx-auto p-4">
+        <h1 class=" text-center text-4xl font-bold tracking-tight text-gray-700">Preguntas <br/> Frecuentes</h1>
+        
+        
+
+<section class="px-6 py-4">
+    
+    <div class=" py-4">
+  <button 
+    onclick="this.classList.toggle('open'); const content = this.nextElementSibling; content.classList.toggle('hidden');" 
+    class="w-full flex justify-between items-center text-left text-xl font-bold text-gray-800 group"
+    >
+    <span> ¿Cómo enviar archivos para impresión?</span>
+    <svg 
+    class="w-5 h-5 transform transition-transform duration-300 group-[.open]:rotate-180 text-gray-500" 
+    fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" 
+    xmlns="http://www.w3.org/2000/svg"
+    >
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+</svg>
+</button>
+
+<div class="mt-2 text-gray-700 leading-relaxed hidden">
+    <ul class="list-disc pl-6">
+        <li> <strong>Formato de archivo </strong> formato PDF, PNG, TIFF o JPG y con una resolución de 300 DPI</li>
+        <li><strong>Espacio de color </strong> tabajar co RGB un rango de color mas amplio.</li>
+    </ul>
+  </div>
+</div>
+</section>
+</section>

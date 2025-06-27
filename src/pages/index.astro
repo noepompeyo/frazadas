@@ -3,6 +3,7 @@ import Product from '../components/Product.astro';
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
+import imagewhats from '../assets/whatsapp.png';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -12,5 +13,13 @@ import Nav from '../components/Nav.astro';
 	<Nav/>
 	  <Welcome />
 	  <Product/>
+	  <section>
+		
+<section>
+			<a href="https://wa.me/7461217034" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 rounded-full  p-  flex items-center justify-center" style="width:56px; height:56px;">
+			<img src={imagewhats.src} alt="WhatsApp" class="w-10 h-10 sm:w-12 sm:h-12"  />
+		</a>
+		</section>
+	  </section>
   
 </Layout>

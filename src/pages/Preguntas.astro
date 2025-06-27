@@ -1,0 +1,21 @@
+---
+import ContainPreguntas from '../components/Contain-preguntas.astro'
+import Layout from '../layouts/Layout.astro'
+import '../styles/global.css'
+import imagewhats from '../assets/whatsapp.png'
+import Nav from '../components/Nav.astro'
+---
+
+<Layout>
+	<Nav/>
+
+    <ContainPreguntas/>
+    <section>
+		
+<section>
+			<a href="https://wa.me/7461217034" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 rounded-full  p-  flex items-center justify-center" style="width:56px; height:56px;">
+			<img src={imagewhats.src} alt="WhatsApp" class="w-10 h-10" />
+		</a>
+		</section>
+	  </section>
+</Layout>

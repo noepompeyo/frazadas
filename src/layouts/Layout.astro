@@ -14,7 +14,7 @@ const isProd = import.meta.env.PROD;
       <>
        <!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-DKQP06D5FE"></script>
-		<script>
+		<script is:inline>
   		window.dataLayer = window.dataLayer || [];
   		function gtag(){dataLayer.push(arguments);}
   		gtag('js', new Date());
@@ -27,6 +27,7 @@ const isProd = import.meta.env.PROD;
 	
 	<body>
 		<slot />
+		
 	</body>
 </html>
 
